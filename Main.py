@@ -2,6 +2,9 @@ import pygame
 from pygame.locals import *
 from DEFS import *
 from Chara import *
+'''
+Closely following code from pacmancode.com
+'''
 class GAME(object):
     def __init__(self):
         pygame.init()
